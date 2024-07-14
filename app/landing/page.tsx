@@ -33,7 +33,7 @@ const landing = () => {
                     </div>
                 </div>
 
-                <div className="mt-14 mb-14 mx-40 flex gap-28 justify-center items-center">
+                <div className="mt-14 mb-14 mx-40 flex flex-col md:flex-row gap-28 justify-center items-center">
                     <Image
                         src="/images/first.jpg"
                         width={550}
@@ -70,7 +70,7 @@ const landing = () => {
                         Taskmanly plays a pivotal role in facilitating the coordination of complex tasks among different teams, ensuring a seamless collaboration that ultimately contributes to the achievement of tangible and impactful business results.
                     </p>
                 </div>
-                <div className="flex justify-center mx-auto space-x-6">
+                <div className="flex flex-col md:flex-row justify-center mx-auto space-x-6">
                     <div className="rounded-md border border-white p-2 w-[40%] overflow-hidden">
                         <h1 className="text-xl font-bold mb-2">Effortless Task Creation</h1>
                         <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you&apos;re working individually or collaborating with your team.</p>
@@ -103,7 +103,7 @@ const landing = () => {
                     </div>
                 </div>
 
-                <div className="mt-6 py-1 flex justify-center mx-auto space-x-6">
+                <div className="mt-6 py-1 flex flex-col md:flex-row justify-center mx-auto space-x-6">
                     <div className="rounded-md border border-white p-2 w-[40%]">
                         <h1 className="text-xl font-bold mb-2">Effortless Task Creation</h1>
                         <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you&apos;re working individually or collaborating with your team.</p>
