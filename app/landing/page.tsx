@@ -73,7 +73,7 @@ const landing = () => {
                 <div className="flex justify-center mx-auto space-x-6">
                     <div className="rounded-md border border-white p-2 w-[40%] overflow-hidden">
                         <h1 className="text-xl font-bold mb-2">Effortless Task Creation</h1>
-                        <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you're working individually or collaborating with your team.</p>
+                        <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you&apos;re working individually or collaborating with your team.</p>
                         <div className="flex items-center text-sm mb-4">
                             <p className="mr-2">Learn more</p>
                             <PiCaretRightThin />
@@ -106,7 +106,7 @@ const landing = () => {
                 <div className="mt-6 py-1 flex justify-center mx-auto space-x-6">
                     <div className="rounded-md border border-white p-2 w-[40%]">
                         <h1 className="text-xl font-bold mb-2">Effortless Task Creation</h1>
-                        <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you're working individually or collaborating with your team.</p>
+                        <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you&apos;re working individually or collaborating with your team.</p>
                         <div className="flex items-center text-sm mb-4">
                             <p className="mr-2">Learn more</p>
                             <PiCaretRightThin />
