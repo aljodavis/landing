@@ -71,7 +71,7 @@ const landing = () => {
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row justify-center mx-auto space-x-6">
-                    <div className="rounded-md border border-white p-2 w-[40%] overflow-hidden">
+                    <div className="rounded-md border border-white p-2 w-[40%] overflow-hidden sm:w-full md:w-[40%]">
                         <h1 className="text-xl font-bold mb-2">Effortless Task Creation</h1>
                         <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you&apos;re working individually or collaborating with your team.</p>
                         <div className="flex items-center text-sm mb-4">
@@ -86,7 +86,7 @@ const landing = () => {
                             className="rounded-sm object-fill"
                         />
                     </div>
-                    <div className="rounded-md border border-white p-2 w-[40%]">
+                    <div className="rounded-md border border-white p-2 w-[40%] sm:w-full md:w-[40%]">
                         <h1 className="text-xl font-bold mb-2">Organization with Streamlined List View</h1>
                         <p className="text-sm mb-4 text-[#C2C2C2]">Immerse yourself in a clean and intuitive list view that enhances visibility and simplifies your workflow.</p>
                         <div className="flex items-center text-sm mb-4">
@@ -105,14 +105,14 @@ const landing = () => {
 
                 <div className="mt-6 py-1 flex flex-col md:flex-row justify-center mx-auto space-x-6">
                     <div className="rounded-md border border-white p-2 w-[40%]">
-                        <h1 className="text-xl font-bold mb-2">Effortless Task Creation</h1>
-                        <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly create new tasks with ease, whether you&apos;re working individually or collaborating with your team.</p>
+                        <h1 className="text-xl font-bold mb-2">Potential of Your Efficiency with AutoFlow</h1>
+                        <p className="text-sm mb-4 text-[#C2C2C2]">Seamlessly automate repetitive tasks, streamline processes, and elevate your productivity to new heights.</p>
                         <div className="flex items-center text-sm mb-4">
                             <p className="mr-2">Learn more</p>
                             <PiCaretRightThin />
                         </div>
                         <Image
-                            src="/images/work1.jpg"
+                            src="/images/work3.jpg"
                             width={800}
                             height={550}
                             alt="Picture of the bg"
@@ -120,14 +120,14 @@ const landing = () => {
                         />
                     </div>
                     <div className="rounded-md border border-white p-2 w-[40%]">
-                        <h1 className="text-xl font-bold mb-2">Organization with Streamlined List View</h1>
-                        <p className="text-sm mb-4 text-[#C2C2C2]">Immerse yourself in a clean and intuitive list view that enhances visibility and simplifies your workflow.</p>
+                        <h1 className="text-xl font-bold mb-2">Summaries for Enhanced Task Management</h1>
+                        <p className="text-sm mb-4 text-[#C2C2C2]">Elevate your productivity with succinct task summaries that provide a quick overview of key details.</p>
                         <div className="flex items-center text-sm mb-4">
                             <p className="mr-2">Learn more</p>
                             <PiCaretRightThin />
                         </div>
                         <Image
-                            src="/images/work2.jpg"
+                            src="/images/work4.jpg"
                             width={800}
                             height={600}
                             alt="Picture of the bg"
